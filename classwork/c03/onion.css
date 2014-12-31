@@ -1,0 +1,26 @@
+/*
+1.	Use the font family "Georgia" for the main headline and the subheadline.
+2.	Center the text of the main headline and the subheadline.
+3.	Make the paragraphs have a line height of 19 pixels.
+4.	Remove the underline from the links.
+5.	Make the "You might also like" label all uppercase.
+
+Bonus: Make an underline appear when you hover over a link.
+*/
+
+h1, h2 {
+	font-family: Georgia;
+	text-align: center;
+}
+p {
+	line-height:19px;
+}
+p.uppercase {
+	text-transform: uppercase;
+}
+a:link, a:visited, a:active {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
