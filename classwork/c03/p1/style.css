@@ -1,0 +1,21 @@
+/*
+Write a CSS rule for the "realname" class that makes the color "#333333"
+Make the "username" class gray and not bold
+Make the "maintext" class a font size of 18 pixels
+Make the "mention" class (which is a link that mentions another Twitter user) bold
+Make the "date" class gray
+Make all the links have the color "#008AB9"
+Make all of the text Arial or another sans-serif font
+*/
+.realname {color:#333333;}
+.username {
+	color:gray;
+	font-weight:normal;
+}
+.maintext {font-size: 18px;}
+.mention {font-weight: bold;}
+.date {color:gray;}
+a {color:#008AB9;}
+* {
+	font-family: Arial, sans-serif; 
+}

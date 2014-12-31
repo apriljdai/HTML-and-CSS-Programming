@@ -1,0 +1,40 @@
+README:
+=======
+
+Using the fade skills you've learned, let's make a simple before and after graphic.
+
+Copy the jQuery snippet below and paste it in script.js. Change it so that when you click the image on the page, it disappears, leaving only the background image showing.
+
+jQuery(document).ready(function() {
+        
+    // Write your jQuery command after this line ...
+    
+    jQuery("___").___(function() {
+         jQuery("___").___();            
+    });
+    
+    // ... but before this line 
+    
+    /*
+    
+    Here is an example:
+    
+    When I click on the paragraph,
+        the paragraph will become hidden
+
+    jQuery("p").click(function() {
+         jQuery("p").hide();            
+    });
+    
+    */
+    
+});
+
+
+1.	Find the jQuery folder in your Dropbox.
+2.	Open up index.html and styles.css in your text editor
+3.	Create your JavaScript file. In the "js" folder within the "jQuery" folder, create a file called "script.js"
+4.	Search for jQuery. Google "jquery google", click on the first link, and copy the HTML snippet that looks like this: <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+5.	Paste that snippet in index.html in your <head>
+6.	Add http: before the // in that snippet
+7.	Include your JavaScript file. In index.html, type this on a new line to include the JavaScript file on your page: <script type="text/javascript" src="js/script.js"></script>

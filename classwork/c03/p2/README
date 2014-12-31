@@ -1,0 +1,11 @@
+README:
+=======
+
+Let's take the HTML and CSS you created from the last Twitter exercise, and start refining the design. Open up those files, and let's get rolling!
+
+1.	Let's start by updating the HTML: Enclose the contents of each tweet on your HTML Page within a <div> with a class of "tweet" (see below for an example -- but don't just copy and paste it, or it won't work!).
+2.	Change the margin of each paragraph to be 5 pixels on each side
+3.	Make the width of each image be 430 pixels
+4.	Make the width of each tweet 430 pixels
+5.	Give each tweet 10 pixels of padding on each side
+6.	Add a 1-pixel solid gray border to the bottom of each tweet

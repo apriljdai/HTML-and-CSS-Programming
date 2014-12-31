@@ -1,47 +1,68 @@
 README:
 =======
 
-Paste the HTML below into a new HTML file. Then, create a "css" folder with a "styles.css" file inside.
+Using the HTML below, do the following
 
-Hint: Need some help? Keep reading. There's some starter CSS in the tab below. Also, these are the CSS rules you'll need to write:
+1.	For the first part, make the image float to the left of the text.
+2.	For the second part, make the two columns of text float side-by-side. Add a border to the class "second-part" and make sure the border goes all the way around both columns of text by using the clearfix, or another technique.
 
-Write a CSS rule for the "realname" class that makes the color "#333333"
-Make the "username" class gray and not bold
-Make the "maintext" class a font size of 18 pixels
-Make the "mention" class (which is a link that mentions another Twitter user) bold
-Make the "date" class gray
-Make all the links have the color "#008AB9"
-Make all of the text Arial or another sans-serif font
+first part:
 
 <html>
     <head>
-        <title>Tweets from @MarsCuriosity</title>
-        <!-- Load your CSS file -->
-        <link rel="stylesheet" href="css/styles.css" >
+        <title>A parade of floats</title>
+        <!-- Put your CSS here -->
+        <link rel="stylesheet" href="css/styles.css" />
     </head>
     <body>
-
-        <!-- First tweet begins here -->
-        <p>
-            <strong class="realname">Curiosity Rover</strong> ‏
-            <strong class="username">@MarsCuriosity</strong>   
-        </p>
-        <p class="maintext">
-            The journey of 352,000,000 miles begins with a single launch. One year ago today, I left Earth for Mars <a href="http://twitpic.com/bgq1vn">twitpic.com/bgq1vn</a>
-        </p>                            
-        <img src="http://farm9.staticflickr.com/8098/8418876742_7e7b747e2a_o.jpg" />
-        <p class="date">26 Nov 12</p>
-
-        <!-- Second tweet begins here -->
-         <p>
-            <strong class="realname">Curiosity Rover</strong> ‏
-            <strong class="username">@MarsCuriosity</strong>   
-        </p>  
-        <p class="maintext">
-            From chemist to explorer to mayor, I am one busy bot. Just became the mayor of Mars' Gale Crater on <a href="http://www.twitter.com/foursquare" class="mention">@foursquare</a> 
-        </p>                            
-        <p class="date">7 Oct 12</p>
-
-
+        
+        <!-- Part 1: Make the image float to the left of the text --> 
+        <div class="first-part">
+            <img src="http://placekitten.com/125/125" />
+            <p>You can use <a href="http://www.placekitten.com">placekitten.com</a> for all your placeholder image and/or cat-therapy needs! You can even get placeholder images of different sizes. It's really quite amazing.</p>
+            <p>In the meantime, try making this image float to the left of this text, so these paragraphs wrap around it. <strong>Stare at the kitty if you get frustrated</strong>.</p>
+        	<p>Excuse me while I switch to Latin.</p>
+            <p>*<em>clears throat</em>*</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a nibh tortor. Nam aliquet aliquam accumsan.</p>
+            <p>In turpis neque, tempus sed aliquet a, imperdiet in est. Nulla ut nibh magna, a mollis dui. Donec enim elit, pulvinar nec accumsan non, faucibus quis ligula.</p>
+            <p>Vivamus massa purus, tincidunt adipiscing rutrum nec, pretium ullamcorper enim. Etiam feugiat ante quis nunc feugiat sed iaculis nisi consectetur.</p>
+        </div>
+        
+        
     </body>
+    
+</html>
+
+
+second part:
+
+<html>
+    <head>
+        <title>Side-by-side floats</title>
+        <!-- Put your CSS here -->
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
+    <body>
+        
+        <!-- Part 2: Lay out the the two books side by side --> 
+        <div class="second-part clearfix">
+            <div class="pride-and-prejudice">
+                <h2>Pride and Prejudice</h2>
+                <p>It is a truth universally acknowledged, that a single man in possession of a good fortune must be in want of a wife.</p>
+        
+                <p>However little known the feelings or views of such a man may be on his first entering a neighbourhood, this truth is so well fixed in the minds of the surrounding families, that he is considered as the rightful property of some one or other of their daughters.</p>
+        
+                <p>“My dear Mr. Bennet,'' said his lady to him one day, “have you heard that Netherfield Park is let at last?”</p>
+            
+            </div>
+            <div class="pride-and-prejudice-and-zombies">
+                <h2>Pride and Prejudice and Zombies</h2>
+                <p>It is a truth universally acknowledged that a zombie in possession of brains must be in want of more brains. Never was this truth more plain than during the recent attacks at Netherfield Park, in which a household of eighteen was slaughtered and consumed by a horde of the living dead.</p>
+        
+                <p>“My dear Mr. Bennet,” said his lady to him one day, “have you heard that Netherfield Park is occupied again?”</p>
+            </div>
+        </div>
+        
+    </body>
+    
 </html>
