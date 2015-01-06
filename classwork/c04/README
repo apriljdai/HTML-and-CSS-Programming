@@ -1,0 +1,47 @@
+README:
+=======
+
+Paste the HTML below into a new HTML file. Then, create a "css" folder with a "styles.css" file inside.
+
+Hint: Need some help? Keep reading. There's some starter CSS in the tab below. Also, these are the CSS rules you'll need to write:
+
+Write a CSS rule for the "realname" class that makes the color "#333333"
+Make the "username" class gray and not bold
+Make the "maintext" class a font size of 18 pixels
+Make the "mention" class (which is a link that mentions another Twitter user) bold
+Make the "date" class gray
+Make all the links have the color "#008AB9"
+Make all of the text Arial or another sans-serif font
+
+<html>
+    <head>
+        <title>Tweets from @MarsCuriosity</title>
+        <!-- Load your CSS file -->
+        <link rel="stylesheet" href="css/styles.css" >
+    </head>
+    <body>
+
+        <!-- First tweet begins here -->
+        <p>
+            <strong class="realname">Curiosity Rover</strong> ‏
+            <strong class="username">@MarsCuriosity</strong>   
+        </p>
+        <p class="maintext">
+            The journey of 352,000,000 miles begins with a single launch. One year ago today, I left Earth for Mars <a href="http://twitpic.com/bgq1vn">twitpic.com/bgq1vn</a>
+        </p>                            
+        <img src="http://farm9.staticflickr.com/8098/8418876742_7e7b747e2a_o.jpg" />
+        <p class="date">26 Nov 12</p>
+
+        <!-- Second tweet begins here -->
+         <p>
+            <strong class="realname">Curiosity Rover</strong> ‏
+            <strong class="username">@MarsCuriosity</strong>   
+        </p>  
+        <p class="maintext">
+            From chemist to explorer to mayor, I am one busy bot. Just became the mayor of Mars' Gale Crater on <a href="http://www.twitter.com/foursquare" class="mention">@foursquare</a> 
+        </p>                            
+        <p class="date">7 Oct 12</p>
+
+
+    </body>
+</html>
