@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<title>Playback Part</title>
+	<style>
+	/* header part */
+	div.header {
+		background-color: #ff9999;
+		clear:both;
+		width:100%;
+		height: 180px;
+	}
+
+	ul#content {
+		float:right;
+		margin-right: 300px;
+	}
+
+	ul#content li {
+		display: inline;
+	}
+
+	ul#content li a {
+		padding: 10px 20px;
+		text-decoration: none;
+		font-weight: normal;
+	}
+
+	ul#content li a:link {
+		color: #ff0000;
+	}
+
+	ul#content li a:visited {
+		color: #ff0000;
+	}
+
+	ul#content li a:hover {
+		color:#ff6699;
+	}
+
+	img#img_header {
+		float:left;
+	}
+
+	h1 {
+		font-family: lucida handwriting;
+		padding-left: 250px;
+		padding-top: 50px;
+	}
+
+	h3 {
+		font-family: arial;
+		font-size: 200;
+		padding-left: 280px;
+		padding-top: -40px;	
+	}
+
+
+	/* The introduction part */
+	div.playback_intro {
+		border: 2px dashed pink;
+		padding: 5px;
+		width: 70%;
+		margin: 50px 200px 30px 117px;
+		padding: 30px 100px 30px 150px;
+	}
+
+	h2 {
+		font-family: cursive;
+	}
+
+
+	/* The details part */
+	div.playback_buttons {
+		padding: 5px;
+		width: 70%;
+		margin: 0px 150px 30px 220px;
+		padding: 30px;
+	}
+
+	img#button {
+		float: left;
+		margin-right: 50px;
+		margin-top: 30px;
+	}
+
+	img#note {
+		float: left;
+		margin-left:120px;
+		margin-top: 150px;
+	}
+
+	img#note_right {
+		float: right;
+		margin-right:50px;
+		margin-top: 350px;
+	}
+
+	h4, p {
+		font-family: Arial;
+	}
+	
+	hr {
+		border: 1px dashed pink;
+		margin-left:100px;
+	}
+
+	/* the footer part */
+	div.footer {
+		background-color: #ff9999;
+		clear:both;
+		text-align: center;
+		padding:5px;
+	}
+	</style>
+</head>
+
+<body>
+	<!-- same head part as the hierarchy website -->
+	<div class="header">
+		<img id="img_header" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRsFQdzGLFMVyoWI89T7nIeV6JmXINV6gLt0G8Y6MjeS9o5pWowEQ" alt="image in the header" width="200px" height="180px">
+		<h1>AA Music Player</h1>
+		<h3>Functional Media Player
+		<ul id="content">
+			<li><a href="file:///Users/jieqingdai/Desktop/HTML/personal%20website%20design/hierarchy.html">Home</a></li>
+			<li><a href="file:///Users/jieqingdai/Desktop/HTML/personal%20website%20design/about.html">About</a></li>
+			<li><a href="file:///Users/jieqingdai/Desktop/HTML/personal%20website%20design/contact.html">Contact Me</a></li>
+		</ul>
+		</h3>
+	</div>
+
+	<!-- Playback each button introduction -->
+	<img id="note" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtA2R5fQAtp97-OBUI0hxtADaaCxRqpGJFyQ8yUlz3vi1RuAqTEg" alt="note" width="100px" height="300px">
+	<img id="note_right" src="http://www.fairtattoo.com/wp-content/uploads/2014/10/music-note-tattoo-on-whole-back-for-women.jpg" alt="note on the right" width="200px" height="650px">
+	<div class="playback_intro">
+		<h2>Playback</h2>
+		<p>Qt5’s built-in MediaPlayer widget is used to handle the decoding of the media files and the system calls to the playback devices. All types of media files is supportted by Qt's plat-form specific media backends in the basic implementation. The essential functionalities, which also translate to individual GUI elements, includes: </p>
+	</div>
+
+	<div class="playback_buttons">
+		<img id="button" src="http://fadeyev.s3.amazonaws.com/1009/itunes2.png" alt="play/pause button" width="50px" height="50px">
+		<h4>01 Play/Pause Button</h4>
+		<hr>
+		<p>Play/Pause button starts or pause the playback of the curent media file.</p>
+		<br>
+		<img id="button" src="http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons/black-inlay-crystal-clear-bubble-icons-media/001504-black-inlay-crystal-clear-bubble-icon-media-a-media28-stop.png" alt="stop button" width="50px" height="50px">
+		<h4>02 Stop Button</h4>
+		<hr>
+		<p>Stop button ceases the current media file.</p>
+		<br>
+		<img id="button" src="http://www.clker.com/cliparts/0/4/e/8/1206570574308349122akiross_Audio_Button_Set_5.svg.med.png" alt="next back button" width="50px" height="50px">
+		<h4>03 Next &#38 Back Buttons</h4>
+		<hr>
+		<p>Next and Back buttons skip to the next or previous songs in the playlist.</p>
+		<br>
+		<img id="button" src="https://lh5.ggpht.com/WYN7CIHmAqIN6-cs7hBDNnQm0x8OdHUHKJkhUodF_Uves8JOvJv2WuWfV1P-ooYOMP8=w300" alt="volumn button" width="50px" height="50px">
+		<h4>04 Volumn Button &#38 Slider</h4>
+		<hr>
+		<p>Volumn button and the slider besides it mutes, raises or decreases the volumn.</p>
+		<br>
+		<img id="button" src="http://365psd.com/wp-content/uploads/2012/01/music-progress.jpg" alt="slider" width="50px" height="50px">
+		<h4>05 Progress Slider</h4>
+		<hr>
+		<p>Slider shows the progress of the playback, which could be manually dragged to advance/rewind the song.</p>
+	</div>
+
+	<!-- footer part -->
+	<div class="footer">
+		Copyright © 2014 apriljdai
+	</div>
+</body>
+</html>
+
+
+
+

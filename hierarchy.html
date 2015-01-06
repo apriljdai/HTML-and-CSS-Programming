@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- The theme of the website -->
+	<title>AA Music Player EXPO</title>
+	<!-- CSS Code here 
+	<link rel="stylesheet" href="styles.css">
+	-->
+	<style>
+	/* header part */
+	div.header {
+		background-color: #ff9999;
+		clear:both;
+		width:100%;
+		height: 180px;
+	}
+
+	ul#content {
+		float:right;
+		margin-right: 300px;
+	}
+
+	ul#content li {
+		display: inline;
+	}
+
+	ul#content li a {
+		padding: 10px 20px;
+		text-decoration: none;
+		font-weight: normal;
+	}
+
+	ul#content li a:link {
+		color: #ff0000;
+	}
+
+	ul#content li a:visited {
+		color: #ff0000;
+	}
+
+	ul#content li a:hover {
+		color:#ff6699;
+	}
+
+	img#img_header {
+		float:left;
+	}
+
+	h1 {
+		font-family: lucida handwriting;
+		padding-left: 250px;
+		padding-top: 50px;
+	}
+
+	h3 {
+		font-family: arial;
+		font-size: 200;
+		padding-left: 280px;
+		padding-top: -40px;	
+	}
+
+	/* introduction part */
+	div.introduction {
+		border: 2px dashed pink;
+		width:500px;
+		float:left;
+		margin: 30px 150px 30px 650px;
+		padding: 30px;
+	}
+
+	img#music_player {
+		position:absolute;
+		clip:rect(0px, 400px, 400px, 0px);
+		float: left;
+		margin: 20px 10px 30px 200px;
+		padding: 10px;
+	}
+
+	h2 {
+		font-family: cursive;
+	}
+
+	hr {
+		border: 1px dashed pink;
+	}
+
+	p {
+		font-family: Arial;
+	}
+
+	a#source_code {
+		background-color: pink;
+		font-family: Arial;
+		text-decoration: none;
+	}
+
+
+	/* each part of link */
+	div.list {
+		margin: 60px 100px 20px 200px;
+		border: 2px dashed pink;
+		padding: 5px;
+		float: left;
+	}
+
+	div.img {
+    	margin: 40px 15px 30px 15px;
+    	padding: 5px;
+    	border: 1px solid #ff9999;
+    	height: auto;
+    	width: auto;
+    	float: left;
+    	text-align: center;
+	}	
+
+	div.img img {
+    	display: inline;
+   		margin: 10px 10px 10px 10px;
+	}
+
+	div.desc {
+		font-family: cursive;
+  		text-align: center;
+  		font-weight: bold;
+  		margin: 0px 10px 10px 10px;
+	}
+
+	/* installation part */
+	div.list_installation {
+		margin: 20px 100px 30px 200px;
+		border: 2px dashed pink;
+		padding: 2px;
+		float: left;
+	}
+
+	h2#install {
+		font-family: cursive;
+		padding-left: 15px;
+	}
+
+	ol {
+		font-family: arial;
+	}
+
+	/* the footer part */
+	div.footer {
+		background-color: #ff9999;
+		clear:both;
+		text-align: center;
+		padding:5px;
+	}
+	
+	</style>
+</head>
+
+<body>
+	<!-- same head part as the hierarchy website -->
+	<div class="header">
+		<img id="img_header" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRsFQdzGLFMVyoWI89T7nIeV6JmXINV6gLt0G8Y6MjeS9o5pWowEQ" alt="image in the header" width="200px" height="180px">
+		<h1>AA Music Player</h1>
+		<h3>Functional Media Player
+		<ul id="content">
+			<li><a href="file:///Users/jieqingdai/Desktop/HTML/personal%20website%20design/hierarchy.html">Home</a></li>
+			<li><a href="file:///Users/jieqingdai/Desktop/HTML/personal%20website%20design/about.html">About</a></li>
+			<li><a href="file:///Users/jieqingdai/Desktop/HTML/personal%20website%20design/contact.html">Contact Me</a></li>
+		</ul>
+		</h3>
+	</div>
+
+	<!-- Show the brief introduction about the AA Music Player -->
+	<img id="music_player" src="http://freehdpic.com/wp-content/uploads/2013/12/Musical-Notes-Butterflies-hd-Wallpaper.jpg" alt="music player" width="500px" height="400px">
+	<div class="introduction">
+		<h2>AA Music Player</h2>
+		<p>AAMusicPlayer demonstrates all the basic functionalities of a media player (and then some) with a GUI based on the Qt5 framework, platform support on both Linux Ubuntu and Mac OSX, and media support of all types supported by Qt's plat-form specific media backends (GStreamer on Linux). It is especially suitable for media-tag (Title, Artist, Album) editing.
+		<hr><br>
+		<a id="source_code" href="https://github.com/apriljdai/AA-Music-Player.git" target="_blank">Click here to see the source code.</a></p>
+	</div>
+
+	<!-- Give the talbe list of the each area link -->
+	<div class="list">
+		<div class="img">
+ 			<a target="_blank" href="file:///Users/jieqingdai/Desktop/HTML/personal%20website%20design/playback.html"><img src="http://docs.inqscribe.com/2.2/static/img/mac/controls.jpg" alt="playback" width="150" height="160"></a>
+ 			<div class="desc">Playback</div>
+		</div>
+		<div class="img">
+			 <a target="_blank" href="file:///Users/jieqingdai/Desktop/HTML/personal%20website%20design/playlist.html"><img src="http://cf.scdn.co/u/wp/screen-shot-2011-08-04-at-51754-pm.png" alt="playlist" width="150" height="160"></a>
+		 	<div class="desc">Playlist</div>
+		</div>
+		<div class="img">
+ 			<a target="_blank" href="klematis3_big.htm"><img src="klematis3_small.jpg" alt="library" width="150" height="160"></a>
+			<div class="desc">Library</div>
+		</div>
+		<div class="img">
+	 		<a target="_blank" href="klematis4_big.htm"><img src="klematis4_small.jpg" alt="Klematis" width="150" height="160"></a>
+ 			<div class="desc">Library List</div>
+		</div>
+		<div class="img">
+	 		<a target="_blank" href="klematis4_big.htm"><img src="klematis4_small.jpg" alt="Klematis" width="150" height="160"></a>
+ 			<div class="desc">Title</div>
+		</div>
+	</div>
+
+	<!-- Install information about the AA Music Player -->
+	<div class="list_installation">
+		<h2 id="install">Installation Packages</h2>
+		<ol style="1">
+			<li><dl>
+				<dt>qt-default media player codec.</dt>
+   				<dd>-- On Ubuntu, follow the steps from qt-project.org/wiki/Install_Qt_5_on_Ubuntu.</dd>
+   				<dd>-- On Mac OSX, follow the steps form qt-project.org/doc/qt-5/macosx.html.</dd>
+   			</dl></li>
+   			<li><dl>
+   				<dt>taglib 1.9.1 (latest version). </dt>
+   				<dd>-- On OSX, xcode developer tools, cmake and homebrew should be installed before. More information could be found from (taglib.github.io).</dd>
+   			</dl></li> 
+   			<li>sqlite3</li>
+   		</ol>
+   	</div>
+
+	<!-- footer part -->
+	<div class="footer">
+		Copyright © 2014 apriljdai
+	</div>
+</body>
+</html>
